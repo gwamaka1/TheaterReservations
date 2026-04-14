@@ -19,10 +19,8 @@ public class TheaterReservation {
     }
     public static int Tickets(){
         System.out.println("how many tickets would you like?:");
-        int tickets = scanner.nextInt();
-        scanner.nextLine();
+        int tickets = scanner.nextInt();;
         return tickets;
-
     }
     public static String Reverse(){
         System.out.println("please enter your name:");
@@ -30,8 +28,6 @@ public class TheaterReservation {
         int space = name.indexOf(" ");
         String newName = name.substring(space+1)+" "+ name.substring(0,space);
         return newName;
-
-
     }
     public static LocalDate date(){
         System.out.println("what date will you be coming?(MM/dd/YYYY)");
