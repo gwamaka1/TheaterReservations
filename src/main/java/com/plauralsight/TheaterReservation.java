@@ -19,7 +19,7 @@ public class TheaterReservation {
     }
     public static int Tickets(){
         System.out.println("how many tickets would you like?:");
-        int tickets = scanner.nextInt();;
+        int tickets = scanner.nextInt();
         return tickets;
     }
     public static String Reverse(){
