@@ -12,10 +12,7 @@ public class TheaterReservation {
         String name = Reverse();
         LocalDate date = date();
         int ticket_s = Tickets();
-        String tck = "ticket";
-        if (ticket_s>1) {
-            tck +='s';
-        }
+        String tck = ticket_s==1 ? "ticket":"tickets";
         System.out.println(ticket_s+" "+ tck+ " "+ "reserved for"+" "+
                 date +" "+ "under"+ " "+name);
         scanner.close();
