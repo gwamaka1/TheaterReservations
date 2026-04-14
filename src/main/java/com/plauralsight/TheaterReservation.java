@@ -16,7 +16,8 @@ public class TheaterReservation {
         if (ticket_s>1) {
             tck +='s';
         }
-        System.out.println(ticket_s+" "+ tck+ " "+ "reserved for"+" "+ date +" "+ "under"+ " "+name);
+        System.out.println(ticket_s+" "+ tck+ " "+ "reserved for"+" "+
+                date +" "+ "under"+ " "+name);
         scanner.close();
     }
     public static int Tickets(){
